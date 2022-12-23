@@ -74,6 +74,7 @@ if __name__ == '__main__':
   - Snowboarding
   - bmx
   - Roadtrips (Motorcycle)
+  - Learning assembly for 6502 processor to make games for Atari2600
 
 ## Languages i speak:
   - Greek
