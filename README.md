@@ -61,12 +61,8 @@ if __name__ == '__main__':
   - TeamWork makes the Dream Work
   - Fun to work with
 
-## Things i currently work on:
-  - Connector one of my projects (is a multi session handler)
-  - Taking the OSCP examination
-
 ## Jobs:
-  - Waiter/Barista at a cafe in my hometown (cosi)
+  - Waiter/Barista/Bartender at a cafe in my hometown (cosi)
   - Coffe Delivery (coffe island, mosaic)
 
 ## Hobbies:
