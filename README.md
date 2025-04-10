@@ -3,72 +3,44 @@
 ## Profile:
 My name is **Charis** born 1/6/2003(d/m/y),
 i'm a young self motivated developer currently
-working as a coffe delivery, with a 
-passion for the cyber-security industry.
-I started by learning html when i was 15 and since then have 
-improved my skills and expanded my knowledge and went from front-end
-to back-end 
+working at [InterMediaKT](https://intermediakt.org/), with a 
+passion for backe-end development and the cyber-security industry.
 
 ```python
-from time import sleep
+txt = [
+    "Dev instance can't code bcs it's healthy. Run unSleep() and drinkCoffe() first to proceed",
+    "uNSLeeping",
+    "Drinking Coffee",
+    "Coding"
+]
+st = [0, 0]
 
-class Developer:
-  def __init__(self):
-    self.drinksCoffe = False
-    self.hasntSlept = False
+sl = lambda tm: __import__("time").sleep(tm)
+pr = lambda text: print(text)
 
-  def drinkCoffe(self):
-    if not self.drinksCoffe:
-      print("Drinking Coffe")
-      self.drinksCoffe = True
-      sleep(1)
-    return
+cl_dev_drc = lambda: (pr(txt[2]), sl(1), st.__setitem__(0, 1)) if not st[0] else None
+cl_dev_usl = lambda: (pr(txt[1]), sl(1.5), st.__setitem__(1, 1)) if not st[1] else None
+cl_dev_cod = lambda: (cl_dev_ren(1), True) if st[0] and st[1] else (pr(txt[0]), sl(1), cl_dev_drc(), cl_dev_usl(), False)
 
-  def unSleep(self):
-    if not self.hasntSlept:
-      print("uNSLeeling nOw")
-      self.hasntSlept = True
-      sleep(1)
-    return
+cl_dev_ren = lambda num: (pr(f"{txt[3]}{'.' * num}"), sl(.5), cl_dev_ren(num + 1) if num < 10 else None) if num < 10 else None
 
-  def code(self):
-    if self.drinksCoffe and self.hasntSlept:
-      for i in range(1,10):
-        print("Coding"+ "."*i)
-        sleep(.5)
-    else:
-      print("Dev instance can't code bcs it's healthy\nRun unSleep() and drinkCoffe() first to proceed")
-      sleep(.5)
-      return
-    print("="*4 +"Finished" + "="*4)
-    return
-
-def main():
-  dev = Developer()
-  dev.code()
-  dev.unSleep()
-  dev.drinkCoffe()
-  dev.code()
-
-if __name__ == '__main__':
-  main()
+if not cl_dev_cod()[1]:
+    cl_dev_cod()
 ```
 
 ## Things about me:
   - I'm a fast patient learner
   - Passionate about everything i do
   - Intrigued by complicated problems
-  - TeamWork makes the Dream Work
+  - Adaptable to any kind of environment
   - Fun to work with
 
 ## Jobs:
-  - Waiter/Barista/Bartender at a cafe in my hometown (cosi)
-  - Coffe Delivery (coffe island, mosaic)
+  - Vongrid: API Developer
+  - InterMediakt: Software Engineer
 
 ## Hobbies:
-  - Coding
   - Snowboarding
-  - bmx
   - Roadtrips (Motorcycle)
   - Learning assembly for 6502 processor to make games for Atari2600
 
@@ -79,5 +51,6 @@ if __name__ == '__main__':
 Reach me through [Linkedin](https://www.linkedin.com/in/charalampos-rentoumis-69991b21b/)
 
 ### Other
-[HackTheBox](https://app.hackthebox.com/profile/133324)
-[TryHackMe](https://tryhackme.com/p/5skr0ll3r)
+[![HackTheBox](https://img.shields.io/badge/HackTheBox-111927?style=for-the-badge&logo=Hack%20The%20Box&logoColor=9FEF00)](https://app.hackthebox.com/profile/133324)
+
+[![TryHackMe](https://img.shields.io/badge/TryHackMe-212C42?style=for-the-badge&logo=TryHackMe&logoColor=white)](https://tryhackme.com/p/5skr0ll3r)
