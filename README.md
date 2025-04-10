@@ -32,7 +32,7 @@ if not cl_dev_cod()[1]:
   - I'm a fast patient learner
   - Passionate about everything i do
   - Intrigued by complicated problems
-  - Adaptable to any kind of environment
+  - Adaptable to any kind of technology
   - Fun to work with
 
 ## Jobs:
