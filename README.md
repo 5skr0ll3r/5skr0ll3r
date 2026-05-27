@@ -50,6 +50,6 @@ if not cl_dev_cod()[1]:
 Reach me through [Linkedin](https://www.linkedin.com/in/charalampos-rentoumis-69991b21b/)
 
 ### Other
-[![HackTheBox](https://img.shields.io/badge/HackTheBox-111927?style=for-the-badge&logo=Hack%20The%20Box&logoColor=9FEF00)](https://app.hackthebox.com/profile/133324)
+[![HackTheBox](https://img.shields.io/badge/HackTheBox-111927?style=for-the-badge&logo=Hack%20The%20Box&logoColor=9FEF00)](https://app.hackthebox.com/public/users/133324)
 
 [![TryHackMe](https://img.shields.io/badge/TryHackMe-212C42?style=for-the-badge&logo=TryHackMe&logoColor=white)](https://tryhackme.com/p/5skr0ll3r)
