@@ -10,7 +10,8 @@ txt = [
     "Dev instance can't code bcs it's healthy. Run unSleep() and drinkCoffe() first to proceed",
     "uNSLeeping",
     "Drinking Coffee",
-    "Coding"
+    "Coding",
+    "Now we can talk"
 ]
 st = [0, 0]
 
@@ -21,7 +22,7 @@ cl_dev_drc = lambda: (pr(txt[2]), sl(1), st.__setitem__(0, 1)) if not st[0] else
 cl_dev_usl = lambda: (pr(txt[1]), sl(1.5), st.__setitem__(1, 1)) if not st[1] else None
 cl_dev_cod = lambda: (cl_dev_ren(1), True) if st[0] and st[1] else (pr(txt[0]), sl(1), cl_dev_drc(), cl_dev_usl(), False)
 
-cl_dev_ren = lambda num: (pr(f"{txt[3]}{'.' * num}"), sl(.5), cl_dev_ren(num + 1) if num < 10 else None) if num < 10 else None
+cl_dev_ren = lambda num: (pr(f"{txt[3]}{'.' * num}"), sl(.5), cl_dev_ren(num + 1) if num < 10 else None) if num < 10 else pr(txt[4])
 
 if not cl_dev_cod()[1]:
     cl_dev_cod()
