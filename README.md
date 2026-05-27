@@ -2,8 +2,7 @@
 
 ## Profile:
 My name is **Charis** born 1/6/2003(d/m/y),
-i'm a young self motivated developer currently
-working at [InterMediaKT](https://intermediakt.org/), with a 
+i'm a young self motivated developer creating software with any kind of tech available to my hands, with a 
 passion for backe-end development and the cyber-security industry.
 
 ```python
